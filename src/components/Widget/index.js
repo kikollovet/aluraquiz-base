@@ -1,6 +1,7 @@
 import styled from 'styled-components'
 
 const Widget = styled.div`
+  text-align: center;
   margin-top: 24px;
   margin-bottom: 24px;
   border: 1px solid ${({ theme }) => theme.colors.primary};
@@ -14,7 +15,7 @@ const Widget = styled.div`
     font-size: 16px;
     font-weight: 700;
     line-height: 1;
-    margin-bottomm: 0;
+    margin-bottom: 0;
   }
   p {
     font-size: 14px;
@@ -24,9 +25,9 @@ const Widget = styled.div`
 `;
 
 Widget.Header = styled.header`
-  display: flex;
+  /*display: flex;
   justify-content: flex-start;
-  align-items: center;
+  align-items: center;*/
   padding: 18px 32px;
   background-color: ${({ theme }) => theme.colors.primary};
   

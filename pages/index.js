@@ -6,6 +6,8 @@ import QuizLogo from '../src/components/QuizLogo'
 import QuizBackground from '../src/components/QuizBackground'
 import Footer from '../src/components/Footer'
 import GitHubCorner from '../src/components/GitHubCorner'
+import FormNameButton from '../src/components/FormNameButton'
+import InputName from '../src/components/InputName'
 import Head from 'next/head'
 import { useRouter } from 'next/router'
 
@@ -31,14 +33,6 @@ export const QuizContainer = styled.div`
   }
 `;
 
-export const InputName = styled.input`
-  background-color: green;
-`;
-
-export const ButtonQuizForm = styled.button`
-  background-color: red;
-`;
-
 export default function Home() {
 
   const router = useRouter();
@@ -61,7 +55,7 @@ export default function Home() {
               router.push(`/quiz?name=${name}`);
               console.log('Fazendo uma submissão por meio do React');
             }}>
-              <input
+              <InputName
               onChange={function (infosDoEvento) {
                 console.log(infosDoEvento.target.value);
                 //name = infosDoEvento.target.value;
@@ -69,9 +63,9 @@ export default function Home() {
               }}
               placeholder="Diz seu nome"/>
               <br/>
-              <button type="submit" disabled={name.length === 0}>
+              <FormNameButton type="submit" disabled={name.length === 0}>
                 Jogar {name}
-              </button>
+              </FormNameButton>
             </form>
           </Widget.Content>
         </Widget>
