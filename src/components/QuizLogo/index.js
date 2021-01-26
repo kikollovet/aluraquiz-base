@@ -28,10 +28,10 @@ function Logo({ className }) {
     //   </defs>
     // </svg>
     <img
-        src="/01.jpg"
+        src="/Sol.svg"
         alt="Teste"
-        width="150"
-        height="150"
+        width="200"
+        height="200"
       />
   );
 }
