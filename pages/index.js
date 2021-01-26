@@ -23,6 +23,7 @@ const Title = styled.h1`
 // `;
 
 export const QuizContainer = styled.div`
+  text-align: center;
   width: 100%;
   max-width: 350px;
   padding-top: 45px;
