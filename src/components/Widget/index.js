@@ -4,7 +4,7 @@ const Widget = styled.div`
   text-align: center;
   margin-top: 24px;
   margin-bottom: 24px;
-  border: 1px solid ${({ theme }) => theme.colors.primary};
+  border: 1px solid black;/*${({ theme }) => theme.colors.primary};*/
   background-color: #981010; /*${({ theme }) => {
     return theme.colors.mainBg;
   }};*/
