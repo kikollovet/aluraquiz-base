@@ -65,7 +65,7 @@ export default function Home() {
               placeholder="Diz seu nome"/>
               <br/>
               <FormNameButton type="submit" disabled={name.length === 0}>
-                Jogar {name}
+                Pronto pra jogar {name}? 
               </FormNameButton>
             </form>
           </Widget.Content>
