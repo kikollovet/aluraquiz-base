@@ -27,12 +27,14 @@ function Logo({ className }) {
     //     </clipPath>
     //   </defs>
     // </svg>
-    <img
+    
+      <img
         src="/Sol-logo.png"
         alt="Teste"
         width="200"
         height="200"
       />
+    
   );
 }
 
@@ -41,6 +43,7 @@ Logo.propTypes = {
 };
 
 const QuizLogo = styled(Logo)`
+  /*text-align: center;*/
   margin: auto;
   display: block;
   @media screen and (max-width: 500px) {

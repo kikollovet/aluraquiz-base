@@ -1,28 +1,28 @@
 {
     "bg": "https://somos.lojaiplace.com.br/wp-content/uploads/2020/01/Apple_Shot-on-iPhone-Challenge-2020_Austin-Mann_01072020.jpg",
-    "title": "Quiz CSS da Alura",
-    "description": "Teste os seus conhecimentos sobre CSS e vamos ver quantos layouts você vai deixar de quebrar",
+    "title": "Quiz se conheça",
+    "description": "Se conheça atravéz de suas escolhas",
     "questions": [
       {
-        "image": "https://media.giphy.com/media/xUOxf3yDKCuwpOlT3i/giphy.gif",
-        "title": "Como fazer um seletor por id via CSS?",
+        "image": "https://i.pinimg.com/originals/8c/e8/4c/8ce84cf2c81b65b3b55b6da19acb54a0.gif",
+        "title": "Qual a primeira coisa que vc faz quando acorda?",
         "description": "Essa é pra aquecer",
         "answer": 2,
         "alternatives": [
-          ".elemento",
-          "*elemento",
-          "#elemento",
-          "%elemento"
+          "Se espreguiça",
+          "Apaga o despertador",
+          "Vira de lado e dorme",
+          "Pula fora da cama"
         ]
       },
       {
-        "image": "https://media.giphy.com/media/13FrpeVH09Zrb2/giphy.gif",
-        "title": "Como fazer um background gradiente com css?",
-        "description": "Faz tempo em haha",
+        "image": "https://indiretasdobem.com.br/blog/wp-content/uploads/2016/07/snoopy-woodstock-gif-breathing.gif",
+        "title": "Você reserva um tempo do seu dia para relaxar e descansar?",
+        "description": "Isso é importante!!!",
         "answer": 0,
         "alternatives": [
-           "background: linear-gradient(#e66465, #9198e5);",
-           "background: gradient(#e66465, #9198e5);"
+           "Sim",
+           "Não"
         ]
       }
     ],

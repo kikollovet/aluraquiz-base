@@ -10,6 +10,8 @@ import FormNameButton from '../src/components/FormNameButton'
 import InputName from '../src/components/InputName'
 import Head from 'next/head'
 import { useRouter } from 'next/router'
+import Input from '../src/components/Input'
+import Button from '../src/components/Button'
 
 const Title = styled.h1`
   font-size: 50px;
@@ -56,17 +58,31 @@ export default function Home() {
               router.push(`/quiz?name=${name}`);
               console.log('Fazendo uma submissão por meio do React');
             }}>
-              <InputName
+              
+              {/* <InputName
               onChange={function (infosDoEvento) {
                 console.log(infosDoEvento.target.value);
                 //name = infosDoEvento.target.value;
                 setName(infosDoEvento.target.value)
               }}
-              placeholder="Diz seu nome"/>
-              <br/>
-              <FormNameButton type="submit" disabled={name.length === 0}>
+              placeholder="Diz seu nome"/> */}
+
+              <Input
+                name="nomeDoUsuario"
+                onChange={(infosDoEvento) => setName(infosDoEvento.target.value)}
+                placeholder="Diz seu nome"
+                value={name}
+              />
+
+              {/* <br/> */}
+              {/* <FormNameButton type="submit" disabled={name.length === 0}>
                 Pronto pra jogar {name}? 
-              </FormNameButton>
+              </FormNameButton> */}
+
+              <Button type="submit" disabled={name.length === 0}>
+                {`Jogar ${name}`}
+              </Button>
+
             </form>
           </Widget.Content>
         </Widget>
