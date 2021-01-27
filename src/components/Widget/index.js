@@ -1,14 +1,14 @@
 import styled from 'styled-components'
 
 const Widget = styled.div`
-  text-align: center;
+  /*text-align: center;*/
   margin-top: 24px;
   margin-bottom: 24px;
   border: 1px solid black;/*${({ theme }) => theme.colors.primary};*/
-  background-color: #981010; /*${({ theme }) => {
+  background-color: black; /*${({ theme }) => {
     return theme.colors.mainBg;
   }};*/
-  /*width: 100%;*/
+  width: 100%;
   background-size: 100% 100%;
   background-position: center;
   background-image: url("/Fundo-Vermelho-Tons.jpg");
@@ -30,11 +30,13 @@ const Widget = styled.div`
 `;
 
 Widget.Header = styled.header`
-  /*display: flex;
-  justify-content: flex-start;
-  align-items: center;*/
-  flex: 1;
-  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /*flex: 1;
+  text-align: center;*/
+  /*width: 100%;
+  height: 100%;*/
   padding: 18px 32px;
   background-color: #270001;/*${({ theme }) => theme.colors.primary};*/
   background-size: 100% 100%;
