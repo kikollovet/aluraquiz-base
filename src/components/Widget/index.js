@@ -33,6 +33,8 @@ Widget.Header = styled.header`
   /*display: flex;
   justify-content: flex-start;
   align-items: center;*/
+  flex: 1;
+  text-align: center;
   padding: 18px 32px;
   background-color: #270001;/*${({ theme }) => theme.colors.primary};*/
   background-size: 100% 100%;
