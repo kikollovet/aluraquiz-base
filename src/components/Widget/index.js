@@ -8,6 +8,11 @@ const Widget = styled.div`
   background-color: #981010; /*${({ theme }) => {
     return theme.colors.mainBg;
   }};*/
+  /*width: 100%;*/
+  background-size: 100% 100%;
+  background-position: center;
+  background-image: url("/Fundo-Vermelho-Tons.jpg");
+
   border-radius: 4px;
   overflow: hidden;
 
@@ -30,6 +35,10 @@ Widget.Header = styled.header`
   align-items: center;*/
   padding: 18px 32px;
   background-color: #270001;/*${({ theme }) => theme.colors.primary};*/
+  background-size: 100% 100%;
+  background-position: center;
+  background-image: url("/Fundo-Vermelho-Tons-Header4.jpg");
+  border-bottom: 1px solid black;
   
   * {
     margin: 0;

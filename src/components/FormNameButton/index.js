@@ -2,7 +2,8 @@ import styled from 'styled-components';
 
 const FormNameButton = styled.button`
   background-color: #EE982F; /* Green */
-  border: none;
+  border: 2px solid #6A0303;
+  border-radius: 15px;
   color: white;
   margin-top: 15px;
   padding: 15px 32px;

@@ -28,7 +28,7 @@ function Logo({ className }) {
     //   </defs>
     // </svg>
     <img
-        src="/Sol.svg"
+        src="/Sol-logo.png"
         alt="Teste"
         width="200"
         height="200"
