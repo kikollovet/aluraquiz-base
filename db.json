@@ -53,7 +53,7 @@
       },
       {
         "image": "https://viagemeturismo.abril.com.br/wp-content/uploads/2016/10/celso-flores.jpeg?quality=70&strip=info&w=916",
-        "title": "Em que país está?",
+        "title": "Em que país está esta construção?",
         "description": "Mudando o nível de dificuldade",
         "answer": 0,
         "alternatives": [
@@ -89,7 +89,7 @@
       },
       {
         "image": "https://www.melhoresdestinos.com.br/wp-content/uploads/2017/09/roma-italia_1067-820x547.jpg",
-        "title": "Em que cidade se encontra?",
+        "title": "Em que cidade se encontra a construção da foto?",
         "description": "Nivel mais dificil",
         "answer": 2,
         "alternatives": [
@@ -113,7 +113,7 @@
       },
       {
         "image": "https://i.pinimg.com/736x/07/0e/67/070e67abfd0cb1c8fb9336ab5c44ec8a.jpg",
-        "title": "Qaul a maior cidade do mundo?",
+        "title": "Qual a maior cidade do mundo?",
         "description": "Pra encerrar com uma bem difícil",
         "answer": 3,
         "alternatives": [
