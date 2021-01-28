@@ -4,7 +4,9 @@ import db from '../db.json';
 import Head from 'next/head';
 
 const GlobalStyle = createGlobalStyle`
-* {
+* 
+  
+  {
     box-sizing: border-box;
   }
   body {
@@ -13,7 +15,7 @@ const GlobalStyle = createGlobalStyle`
     /* New styles */
     display: flex;
     flex-direction: column;
-    font-family: 'Lato', sans-serif;
+    font-family: /*'Potta',*/ 'Lato', sans-serif;
     // Deixa branco no começo
     color: ${({ theme }) => theme.colors.contrastText};
   }
@@ -25,6 +27,10 @@ const GlobalStyle = createGlobalStyle`
     display: flex;
     flex-direction: column;
   }
+  /* @font-face {
+    font-family: 'Potta';
+    src: url('/PottaOne-Regular.ttf');
+  } */
 `
 
 const theme = db.theme

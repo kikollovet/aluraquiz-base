@@ -50,7 +50,7 @@ export default function Home() {
         <QuizLogo />
         <Widget>
           <Widget.Header>
-              <h1>Vamos pensar sobre a vida</h1>
+              <h1>Lugares Fantásticos</h1>
           </Widget.Header>
           <Widget.Content>
             <form onSubmit={function (infosDoEvento) {
