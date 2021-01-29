@@ -1,7 +1,7 @@
 {
     "bg": "https://somos.lojaiplace.com.br/wp-content/uploads/2020/01/Apple_Shot-on-iPhone-Challenge-2020_Austin-Mann_01072020.jpg",
-    "title": "Quiz se conheça",
-    "description": "Se conheça atravéz de suas escolhas",
+    "title": "Quiz lugares fantásticos",
+    "description": "Perguntas sobre lugares fantásticos ao redor do mundo",
     "questions": [
       {
         "image": "https://s2.glbimg.com/tTEa1Gf4LU8rEsTiKO1398_DR9A=/0x918:3165x2878/1008x0/smart/filters:strip_icc()/i.s3.glbimg.com/v1/AUTH_59edd422c0c84a879bd37670ae4f538a/internal_photos/bs/2020/Y/4/wkA3q8SemBAsO0OS6wLg/2020-07-29t180807z-891779709-rc263i9iiv61-rtrmadp-3-science-stonehenge.jpg",
@@ -125,7 +125,8 @@
       }
     ],
     "external": [
-      ""
+      "https://aluraquiz-css.omariosouto.vercel.app/",
+      "https://aluraquiz-devsoutinho.omariosouto.vercel.app/"
     ],
     "theme": {
       "colors": {
