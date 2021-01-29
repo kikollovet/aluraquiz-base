@@ -55,7 +55,8 @@ function ResultWidget({ results }) {
         </p>
         <ul>
           {results.map((result, index) => (
-            <li key={`result__${result}`}>
+            <li key={`result__${index}`}>
+              {/* <li key={`result__${result}`}> como tava antes e dava erro*/}
               #
               {index + 1}
               {' '}
@@ -152,7 +153,8 @@ function QuestionWidget({
                   style={{ display: 'none' }}
                   id={alternativeId}
                   name={questionId}
-                  onChange={() => setSelectedAlternative(alternativeIndex)}
+                  //onChange={() => setSelectedAlternative(alternativeIndex)} desse modo dá ruim
+                  onClick={() => setSelectedAlternative(alternativeIndex)}
                   type="radio"
                 />
                 {alternative}
