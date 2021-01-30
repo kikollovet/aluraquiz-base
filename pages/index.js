@@ -67,7 +67,7 @@ export default function Home() {
                   {'---------------------------------------------------'}
                 </p>
                 <p>
-                  AVISO ao VIAJANTE!!! Caso decida escrever o seu nome e apertar o botão saiba
+                  AVISO ao NAVEGANTE!!! Caso decida escrever o seu nome e apertar o botão saiba
                   que vc encontrará perguntas sobre 
                   você e seu íntimo, seu mundo interno. Vc pode ficar mexido, 
                   reflexivo ou apenas odiar isto e achar uma baboseira. O objetivo é que vc 
