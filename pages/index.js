@@ -61,7 +61,7 @@ export default function Home() {
           animate="show"
         >
           <Widget.Header>
-              <h1>Lugares Fantásticos</h1>
+              <h1>Conhecimento acerca de si-mesmo</h1>
           </Widget.Header>
           <Widget.Content>
             <form onSubmit={function (infosDoEvento) {
@@ -81,7 +81,7 @@ export default function Home() {
               <Input
                 name="nomeDoUsuario"
                 onChange={(infosDoEvento) => setName(infosDoEvento.target.value)}
-                placeholder="Diz seu nome"
+                placeholder="Conte seu nome aventureiro"
                 value={name}
               />
 
@@ -91,7 +91,7 @@ export default function Home() {
               </FormNameButton> */}
 
               <Button type="submit" disabled={name.length === 0}>
-                {`Jogar ${name}`}
+                {`Pronto pra mergulhar ${name}?`}
               </Button>
 
             </form>

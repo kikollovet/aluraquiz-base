@@ -4,125 +4,42 @@
     "description": "Perguntas sobre lugares fantásticos ao redor do mundo",
     "questions": [
       {
-        "image": "https://s2.glbimg.com/tTEa1Gf4LU8rEsTiKO1398_DR9A=/0x918:3165x2878/1008x0/smart/filters:strip_icc()/i.s3.glbimg.com/v1/AUTH_59edd422c0c84a879bd37670ae4f538a/internal_photos/bs/2020/Y/4/wkA3q8SemBAsO0OS6wLg/2020-07-29t180807z-891779709-rc263i9iiv61-rtrmadp-3-science-stonehenge.jpg",
-        "title": "Qual o nome deste monumento?",
-        "description": "Essa é pra aquecer",
+        "image": "https://25.media.tumblr.com/4882afb45a26931785e79c6fd0dfe9a4/tumblr_mkybtsOwoe1ruc4bco1_500.gif",
+        "title": "Você mente?",
+        "description": "Não pense que eu abomino mentira",
         "answer": 2,
         "alternatives": [
-          "Stone Egg",
-          "Stone Range",
-          "Stonehenge",
-          "Stonenhege"
+          "Toda hora",
+          "Minto pq tenho medo de dizer a verdade em certas situações e magoar o outro",
+          "Nunca",
+          "Minto pq é um meio de ser aceito e bem visto"
+        ],
+        "comentario":[
+          "Toda hora..... seria legal investigar isso heim",
+          "Prudente, senão a namorada vai demorar mais meia hora pra se arrumar... mas deixando a brincadeira de lado. Pode ser que as vezes ouvir a verdade de alguem pode nos fazer muito bem, mesmo doendo um pouco....",
+          "Nunca? Uau! Não sei nem o que dizer... espero que vc saiba ser gentil em algumas situações mais delicadas ao dizer a verdade",
+          "Todo mundo quer ser aceito, mas, usando a mentira pra isso, pode ter um preço alto a se pagar em algum momento no futuro"
         ]
       },
       {
-        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS2_Amqwbt9eQ7pxoCUTemhPtzfhLUc413gUQ&usqp=CAU",
-        "title": "E esta maravilha, qual seu nome?",
-        "description": "Facinho heim!!!",
-        "answer": 0,
-        "alternatives": [
-           "Taj Mahal",
-           "Taj Maral",
-           "Taji Mahal",
-           "Taj Mahau"
-        ]
-      },
-      {
-        "image": "https://www.passagenspromo.com.br/blog/wp-content/uploads/2019/06/quais-sao-os-lugares-mais-bonitos-do-brasil-dicas.jpg",
-        "title": "Em que continente está esta beleza?",
-        "description": "Facinho heim!!!",
-        "answer": 1,
-        "alternatives": [
-           "Oceania",
-           "América do Sul",
-           "Ásia",
-           "Europa"
-        ]
-      },
-      {
-        "image": "https://viagemeturismo.abril.com.br/wp-content/uploads/2016/10/thinkstockphotos-514931509.jpeg?quality=70&strip=info&w=919",
-        "title": "Em que continente está esta outra beleza?",
-        "description": "Ainda tá no nivel fácil",
+        "image": "https://maisro.com.br/wp-content/uploads/2018/04/MENINOOO.gif",
+        "title": "Como vc reage a uma crítica?",
+        "description": "Na vida a gente sempre vai ouvir críticas em algum momento",
         "answer": 2,
         "alternatives": [
-           "Oceania",
-           "América do Sul",
-           "America do Norte",
-           "África"
-        ]
-      },
-      {
-        "image": "https://viagemeturismo.abril.com.br/wp-content/uploads/2016/10/celso-flores.jpeg?quality=70&strip=info&w=916",
-        "title": "Em que país está esta construção?",
-        "description": "Mudando o nível de dificuldade",
-        "answer": 0,
-        "alternatives": [
-           "México",
-           "Peru",
-           "Colombia",
-           "Equador"
-        ]
-      },
-      {
-        "image": "https://viagemeturismo.abril.com.br/wp-content/uploads/2016/10/ilha-de-pascoa.jpeg?quality=70&strip=info&w=919",
-        "title": "Em que país se encontra este monumento?",
-        "description": "Main uma nível médio",
-        "answer": 2,
-        "alternatives": [
-           "México",
-           "Peru",
-           "Chile",
-           "Equador"
-        ]
-      },
-      {
-        "image": "https://viagemeturismo.abril.com.br/wp-content/uploads/2017/01/2014_06_17_1147_londres-big-ben.jpeg?quality=70&strip=info&w=925",
-        "title": "E esta vista, em que pais se encontra?",
-        "description": "Ultima nível médio",
-        "answer": 3,
-        "alternatives": [
-           "Itália",
-           "França",
-           "Alemanha",
-           "Inglaterra"
-        ]
-      },
-      {
-        "image": "https://www.melhoresdestinos.com.br/wp-content/uploads/2017/09/roma-italia_1067-820x547.jpg",
-        "title": "Em que cidade se encontra a construção da foto?",
-        "description": "Nivel mais dificil",
-        "answer": 2,
-        "alternatives": [
-           "Pisa",
-           "Milão",
-           "Roma",
-           "Siena"
-        ]
-      },
-      {
-        "image": "https://imagens-revista-pro.vivadecora.com.br/uploads/2019/01/Burj-Khalifa.jpg",
-        "title": "Em que cidade se encontra o prédio mais alto do mundo?",
-        "description": "Nivel mais dificil",
-        "answer": 1,
-        "alternatives": [
-           "Taipei",
-           "Dubai",
-           "Hong Kong",
-           "Kuala Lumpur"
-        ]
-      },
-      {
-        "image": "https://i.pinimg.com/736x/07/0e/67/070e67abfd0cb1c8fb9336ab5c44ec8a.jpg",
-        "title": "Qual a maior cidade do mundo?",
-        "description": "Pra encerrar com uma bem difícil",
-        "answer": 3,
-        "alternatives": [
-           "Mumbai",
-           "Deli",
-           "Jacarta",
-           "Tóquio"
+          "Reflito sobre ela e mudo se achar prudente",
+          "Me sinto mal",
+          "Começo a criticar de volta a pessoa",
+          "Me defendo e explico que não é bem assim"
+        ],
+        "comentario":[
+          "Refletir sobre a critica e mudar é saudável, pode-se tornar um problema se mudamos só pra agradar o outro",
+          "Se sentir mal com uma critica pode fazer parte do processo de amadurecimento, mas é importante saber discriminar se a critica foi mal ou bem intencionada para assim poder procesá-la de uma maneira positiva ou apenas perceber que o outro pode não estar em um bom dia",
+          "Será que vc começou a criticar de volta a pessoa pq a crítica foi verdadeira e vc se sentiu vulnerável?",
+          "As vezes quem critica não tem nem ideia do processo por trás das nossas escolhas e esclarecer esse processo pode ajudar o outro a entender que sua crítica não faz sentido"
         ]
       }
+      
     ],
     "external": [
       "https://aluraquiz-css.omariosouto.vercel.app/",
