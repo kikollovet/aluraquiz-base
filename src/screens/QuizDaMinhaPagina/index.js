@@ -51,7 +51,7 @@ function ResultWidget({ results }) {
           Quantos nós amarram sua escolha ao contexto?
         </p>
         <p>
-          Será que precisa fazer mais nós ou desatar alguns nós?
+          Será que precisa fazer mais nós ou desatar alguns nós que te amarram ao contexto?
         </p>
         <p>
           E por aí vai, as possibilidades de escolha frente a uma situação são infinitas.
@@ -60,10 +60,26 @@ function ResultWidget({ results }) {
           É interessante explorar mais a fundo o porque fazemos tal escolha.
         </p>
         <p>
+          O porque nos sentimos de tal jeito em determinadas situações.
+        </p>
+        <p>
           Explorando o mundo interno descobrimos causas e motivações desconhecidas que nos levam a agir como agimos.
         </p>
         <p>
+          Descobrimos também explicações para os nosso sentimentos.
+        </p>
+        <p>
           A compreessão inevitávelmente nos leva a mudança, ao amadurecimento.
+        </p>
+        <p>
+          Acima de tudo, o auto conhecimento pode nos trazer tesouros lindos. Descobrimos potencias que estavam escondidas bem lá no fundo!
+        </p>
+        <p>
+          Cada tesouro nos torna melhor e melhor. Mudamos de dentro pra fora e assim agimos no mundo de maneiras muito mais benéficas para todos!!
+        </p>
+        <p>
+          Se conhecer leva tempo. Mudar também pode demorar. O esforço e a vontade são essencias. Mas aposto que se vc se aventurar a expandir 
+          seu conhecimento acerca de si-mesmo você só tem a ganhar. Tentar ser uma pessoa melhor é uma escolha, e vc que escolha vai fazer? :)
         </p>
         Abaixo uma pequena reflexão sobre o modo como vc lida com as situações das perguntas. Cuidado!!! Pode conter provocações!!!
         <ul>

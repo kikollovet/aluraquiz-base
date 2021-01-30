@@ -69,14 +69,19 @@ export default function Home() {
                 <p>
                   AVISO ao NAVEGANTE!!! Caso decida escrever o seu nome e apertar o botão saiba
                   que vc encontrará perguntas sobre 
-                  você e seu íntimo, seu mundo interno. Vc pode ficar mexido, 
+                  você e seu íntimo, seu mundo interno. As perguntas tem como objetivo
+                  expandir seu auto-conhecimento. Vc pode ficar mexido com algumas, 
                   reflexivo ou apenas odiar isto e achar uma baboseira. O objetivo é que vc 
                   reflita sobre a maneira como você lida com a vida. Refletir pode causar
                   um certo incômodo. Cada pergunta tem algumas possiveis respostas que vc pode escolher.
                   Ao final será feita uma pequena analise reflexiva sobre suas respostas.
-                  Fique a vontade para não seguir em frente. A escolha é sua. Caso queira prosseguir, 
+                  Fique a vontade para não seguir em frente. Ninguém terá acesso as suas respostas,
+                  inclusive eu, o site não usa banco de dados, ou seja só vc saberá as respostas que escolheu
+                  para cada pergunta!! Dito tudo isso a escolha de seguir em frente é sua. Caso queira prosseguir, 
                   siga com cautela, respeito a si mesmo, amor próprio, e auto cuidado, respire
-                  e simbora mergulhar no nosso mundo interno! Boa viagem!!!
+                  e simbora mergulhar no nosso mundo interno! Lembre-se, se faltar oxigenio volte para
+                  a superfície! Amor próprio e auto cuidado são essencias ao mergulhar no mundo interno.
+                  Boa viagem!!!
                 </p>
               </h1>
               
