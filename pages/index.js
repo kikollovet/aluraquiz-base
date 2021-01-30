@@ -76,7 +76,7 @@ export default function Home() {
                   Ao final será feita uma pequena analise reflexiva sobre suas respostas.
                   Fique a vontade para não seguir em frente. A escolha é sua. Caso queira prosseguir, 
                   siga com cautela, respeito a si mesmo, amor próprio, e auto cuidado, respire
-                  e simbora mergulhar no nosso mundo interno!
+                  e simbora mergulhar no nosso mundo interno! Boa viagem!!!
                 </p>
               </h1>
               

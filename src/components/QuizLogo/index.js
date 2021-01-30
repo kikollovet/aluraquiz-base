@@ -30,7 +30,7 @@ function Logo({ className }) {
     
       <img
         src="/Sol-logo.png"
-        alt="Teste"
+        alt=""
         width="200"
         height="200"
       />
