@@ -27,7 +27,7 @@ function ResultWidget({ results }) {
           Temos de assumir responsabilidade por elas.
         </p>
         <p>
-          O que sentimos nem sempre é uma escolha
+          O que sentimos nem sempre é uma escolha.
         </p>
         <p>
           O que vc sente em determinada situação pode te pegar de surpresa, mas como vc lida com o que vc sente é uma escolha.
@@ -42,10 +42,10 @@ function ResultWidget({ results }) {
           Eu faço isso porque eu não sei fazer de outro jeito. Mergulhando um pouquinho.
         </p>
         <p>
-          Eu faço isso porque há muito tempo tentei fazer diferente e me dei mal. Uns niveis mais embaixo
+          Eu faço isso porque há muito tempo tentei fazer diferente e me dei mal. Uns niveis mais embaixo.
         </p>
         <p>
-          Suas escolhas estã amarradas ao contexto? 
+          Suas escolhas estão amarradas ao contexto? 
         </p>
         <p>
           Quantos nós amarram sua escolha ao contexto?
@@ -113,7 +113,7 @@ function QuestionWidget({
   const [selectedAlternative, setSelectedAlternative] = React.useState(undefined);
   const [isQuestionSubmited, setIsQuestionSubmited] = React.useState(false);
   const questionId = `question__${questionIndex}`;
-  const isCorrect = question.title + " " + question.comentario[selectedAlternative]//selectedAlternative === question.answer;
+  const resultAlternative = question.title + " " + question.comentario[selectedAlternative]//selectedAlternative === question.answer;
   const hasAlternativeSelected = selectedAlternative !== undefined;
 
   return (
@@ -147,7 +147,7 @@ function QuestionWidget({
             infosDoEvento.preventDefault();
             setIsQuestionSubmited(true);
             setTimeout(() => {
-              addResult(isCorrect);
+              addResult(resultAlternative);
               onSubmit();
               setIsQuestionSubmited(false);
               setSelectedAlternative(undefined);
