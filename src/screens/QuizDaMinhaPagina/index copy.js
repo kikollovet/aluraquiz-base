@@ -21,11 +21,67 @@ function ResultWidget({ results }) {
 
       <Widget.Content>
         <p>
-          Um pequeno texto reflexivo pra aquecer e inspirar a busca por auto-conhecimento
+          Nã há respostas certas, há apenas escolhas na vida.
         </p>
-        
-        Abaixo uma pequena reflexão sobre o modo como vc lida com as situações das perguntas.
-        Cada reflexão/provocação é baseada na resposta/possibilidade que vc escolheu.
+        <p>
+          Temos de assumir responsabilidade por elas.
+        </p>
+        <p>
+          O que sentimos nem sempre é uma escolha.
+        </p>
+        <p>
+          O que vc sente em determinada situação pode te pegar de surpresa, mas como vc lida com o que vc sente é uma escolha.
+        </p>
+        <p>
+          A melhor forma de nos conhecermos é mergulhar e compreender a motivação das nossas escolhas.
+        </p>
+        <p>
+          Tipo, eu faço isso por causa disso. Aí estamos na superfície.
+        </p>
+        <p>
+          Eu faço isso porque eu não sei fazer de outro jeito. Mergulhando um pouquinho.
+        </p>
+        <p>
+          Eu faço isso porque há muito tempo tentei fazer diferente e me dei mal. Uns niveis mais embaixo.
+        </p>
+        <p>
+          Suas escolhas estão amarradas ao contexto? 
+        </p>
+        <p>
+          Quantos nós amarram sua escolha ao contexto?
+        </p>
+        <p>
+          Será que precisa fazer mais nós ou desatar alguns nós que te amarram ao contexto?
+        </p>
+        <p>
+          E por aí vai, as possibilidades de escolha frente a uma situação são infinitas.
+        </p>
+        <p>
+          É interessante explorar mais a fundo o porque fazemos tal escolha.
+        </p>
+        <p>
+          O porque nos sentimos de tal jeito em determinadas situações.
+        </p>
+        <p>
+          Explorando o mundo interno descobrimos causas e motivações desconhecidas que nos levam a agir como agimos.
+        </p>
+        <p>
+          Descobrimos também explicações para os nosso sentimentos.
+        </p>
+        <p>
+          A compreessão inevitávelmente nos leva a mudança, ao amadurecimento.
+        </p>
+        <p>
+          Acima de tudo, o auto conhecimento pode nos trazer tesouros lindos. Descobrimos potencias que estavam escondidas bem lá no fundo!
+        </p>
+        <p>
+          Cada tesouro nos torna melhor e melhor. Mudamos de dentro pra fora e assim agimos no mundo de maneiras muito mais benéficas para todos!!
+        </p>
+        <p>
+          Se conhecer leva tempo. Mudar também pode demorar. O esforço e a vontade são essencias. Mas aposto que se vc se aventurar a expandir 
+          seu conhecimento acerca de si-mesmo você só tem a ganhar. Tentar ser uma pessoa melhor é uma escolha, e vc que escolha vai fazer? :)
+        </p>
+        Abaixo uma pequena reflexão sobre o modo como vc lida com as situações das perguntas. Cuidado!!! Pode conter provocações!!!
         <ul>
           {results.map((result, index) => (
             <li key={`result__${index}`}>
@@ -86,7 +142,7 @@ function QuestionWidget({
       </Widget.Header>
 
       <img
-        alt="Gif/Imagem reflexiva relacionada a pergunta"
+        alt="Gif reflexivo relacionado a pergunta"
         style={{
           width: '100%',
           height: '100%',

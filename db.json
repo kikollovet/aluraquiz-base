@@ -4,93 +4,93 @@
     "description": "Perguntas sobre lugares fantásticos ao redor do mundo",
     "questions": [
       {
-        "image": "https://25.media.tumblr.com/4882afb45a26931785e79c6fd0dfe9a4/tumblr_mkybtsOwoe1ruc4bco1_500.gif",
-        "title": "Você mente?",
-        "description": "Não pense que eu abomino mentira",
+        "image": "https://media1.giphy.com/media/9O1VkaVml0v2U/giphy.gif",
+        "title": "Alguma pergunta existencial?",
+        "description": "Uma descrição a mais",
         "answer": 2,
         "alternatives": [
-          "Toda hora",
-          "Minto pq tenho medo de dizer a verdade em certas situações e magoar o outro",
-          "Nunca",
-          "Minto pq é um meio de ser aceito e bem visto"
+          "Possibilidade 1",
+          "Possibilidade 2",
+          "Possibilidade 3",
+          "Possibilidade 4"
         ],
         "comentario":[
-          "Toda hora..... seria legal investigar esse comportamento heim!",
-          "Prudente, senão a namorada vai ficar chateada... Pode ser que as vezes ouvir a verdade de alguem pode nos fazer muito bem, mesmo doendo um pouco....",
-          "Nunca? Uau! Não sei nem o que dizer... espero que vc saiba ser gentil em algumas situações mais delicadas ao dizer a verdade.",
-          "Todo mundo quer ser aceito, mas, usando a mentira pra isso, pode ter um preço alto a se pagar em algum momento no futuro."
+          "Cometário e reflexão sobre a possibilidade 1 escolhida",
+          "Cometário e reflexão sobre a possibilidade 2 escolhida",
+          "Cometário e reflexão sobre a possibilidade 3 escolhida",
+          "Cometário e reflexão sobre a possibilidade 4 escolhida"
         ]
       },
       {
-        "image": "https://maisro.com.br/wp-content/uploads/2018/04/MENINOOO.gif",
-        "title": "Como vc reage a uma crítica?",
-        "description": "Na vida a gente sempre vai ouvir críticas em algum momento",
+        "image": "https://media.tumblr.com/6adcfea28e741676f5296a4fc19a4a4b/tumblr_inline_mjnv7zUJJZ1qz4rgp.gif",
+        "title": "Outra pergunta existencial?",
+        "description": "Alguma informação relevante a mais",
         "answer": 2,
         "alternatives": [
-          "Reflito sobre ela e mudo se achar prudente",
-          "Me sinto mal",
-          "Começo a criticar de volta a pessoa",
-          "Me defendo e explico que não é bem assim"
+          "Possibilidade 1",
+          "Possibilidade 2",
+          "Possibilidade 3",
+          "Possibilidade 4"
         ],
         "comentario":[
-          "Refletir sobre a critica e mudar é saudável, pode-se tornar um problema se mudamos só pra agradar o outro.",
-          "Se sentir mal com uma critica pode fazer parte do processo de amadurecimento, mas é importante saber discriminar se a critica foi mal ou bem intencionada para assim poder procesá-la de uma maneira positiva ou apenas perceber que o outro pode não estar em um bom dia.",
-          "Será que vc começou a criticar de volta a pessoa pq a crítica foi verdadeira e vc se sentiu vulnerável?",
-          "As vezes quem critica não tem nem ideia do processo por trás das nossas escolhas e esclarecer esse processo pode ajudar o outro a entender que sua crítica não faz sentido."
+          "Cometário e reflexão sobre a possibilidade 1 escolhida",
+          "Cometário e reflexão sobre a possibilidade 2 escolhida",
+          "Cometário e reflexão sobre a possibilidade 3 escolhida",
+          "Cometário e reflexão sobre a possibilidade 4 escolhida"
         ]
       },
       {
         "image": "https://media.giphy.com/media/7dWqqQ9g4Slws/giphy.gif",
-        "title": "Vc se faz de vítima em algumas situações?",
-        "description": "Colocar o dog pra dirigir é perigo na certa",
+        "title": "Pergunta sobre uma situação X.",
+        "description": "Algum comentário a mais sobre a pergunta",
         "answer": 2,
         "alternatives": [
-          "Sim",
-          "Nem sei o que é se fazer de vítima",
-          "Nunca"
+          "Possibilidade 1",
+          "Possibilidade 2",
+          "Possibilidade 3",
+          "Possibilidade 4"
         ],
         "comentario":[
-          "Todo mundo se faz de vítima de vez em quando.... Vc está atento ao que te levou aquela situação? Será que vc não tem uma parcela de responsabilidade por ter causado tal situação?",
-          "Se fazer de vítima é fazer algo que tem uma causa e depois, ao invéz de reconhecer que vc teve responsabilidade pelo desdobramento, vc simplesmente se faz de vítima da situação. Exemplo tipico de pensamento da pessoa vitima: Ah, isso sempre acontece comigo, devo ser amaldiçoado....",
-          "Nunca? Será? Se for nunca mesmo um xamã guerreiro iria ficar muito feliz por você!"
+          "Cometário e reflexão sobre a possibilidade 1 escolhida",
+          "Cometário e reflexão sobre a possibilidade 2 escolhida",
+          "Cometário e reflexão sobre a possibilidade 3 escolhida",
+          "Cometário e reflexão sobre a possibilidade 4 escolhida"
         ]
       },
       {
         "image": "https://4.bp.blogspot.com/-MarzTD5LcSk/WqTlQYOcbnI/AAAAAAABDyE/WGKOuL8N374yrI2hwOWyvLfbwgRQU4JTQCLcBGAs/s1600/pantera-12-C13.gif",
-        "title": "Quando vc tem um problema, o que vc faz?",
-        "description": "Vida sem problema não exite",
+        "title": "Outra pergunta.",
+        "description": "mais algum comentário relativo a pergunta",
         "answer": 2,
         "alternatives": [
-          "Ignoro",
-          "Procuro uma solução",
-          "Ponho na lista de coisas a resolver depois",
-          "Peço ajuda",
-          "Ma faço de vítima"
+          "Possibilidade 1",
+          "Possibilidade 2",
+          "Possibilidade 3",
+          "Possibilidade 4"
         ],
         "comentario":[
-          "Ignorar um problema que tá na sua cara as vezes pode te gerar mais problemas no futuro.",
-          "Procurar uma solução para o problema é saudável. Pense nas estratégias que vc adota? Elas podem melhorar?",
-          "As vezes tem problemas que realmente não podemos solucionar de imediato. Ter paciencia ajuda e pode te levar a encontrar soluções criativas! Só não vale deixar a lista de problemas a resolver depois crescer demais heim!!!",
-          "Pedir ajuda é saudável. Muitas vezes existem pessoas que já passaram por aquele problema e podem nos ajudar a enfrentá-lo da melhor maneira.",
-          "Se fazer de vítima frente a um problema pode ser sinal que vc tá esquecendo o que te levou a ter aquele problema. As vezes nós criamos ele por escolhas anteriores."
+          "Cometário e reflexão sobre a possibilidade 1 escolhida",
+          "Cometário e reflexão sobre a possibilidade 2 escolhida",
+          "Cometário e reflexão sobre a possibilidade 3 escolhida",
+          "Cometário e reflexão sobre a possibilidade 4 escolhida"
         ]
       },
       {
         "image": "https://brilhantego.net/wp-content/uploads/2014/06/13-e.gif",
-        "title": "Quando vc se sente frustrado, o que  faz?",
-        "description": "Inevitavelmente em alguma curva da vida a gente se frustra",
+        "title": "Outra pergunta sobre seu intimo",
+        "description": "Mais algum comentário sobre a pergunta",
         "answer": 2,
         "alternatives": [
-          "Desisto",
-          "Lido bem com ela",
-          "Procuro entender o pq fiquei frustrado pra ver se a frustração vale a pena",
-          "Se alguém me frustra eu logo digo para a pessoa"
+          "Possibilidade 1",
+          "Possibilidade 2",
+          "Possibilidade 3",
+          "Possibilidade 4"
         ],
         "comentario":[
-          "Desistir as vezes pode ser uma boa saída, mas as vezes pode valer a pena persistir não é? Quem sabe com um pouco de esforço as coisas podem acontecer de uma maneira diferente.",
-          "Que bom que vc lida bem com ela. Se frustrar faz parte do processo de amadurecimento. Reconhecer que algo nos frustrou pode as vezes nos levar a entender que estamos com expectativas muito altas.",
-          "Se vc ficou frustrado pelas coisas não aocntecerem do modo como voce queria, pode ser que talvez vc não esteja lidando diretamente com o presente.",
-          "Falar pro outro que ele te frustrou é bom, vc está jogando abertamente e pode causar uma mudança de comportamento mais positiva no outro."
+          "Cometário e reflexão sobre a possibilidade 1 escolhida",
+          "Cometário e reflexão sobre a possibilidade 2 escolhida",
+          "Cometário e reflexão sobre a possibilidade 3 escolhida",
+          "Cometário e reflexão sobre a possibilidade 4 escolhida"
         ]
       }
       

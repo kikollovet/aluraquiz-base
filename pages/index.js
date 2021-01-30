@@ -74,6 +74,7 @@ export default function Home() {
                   reflexivo ou apenas odiar isto e achar uma baboseira. O objetivo é que vc 
                   reflita sobre a maneira como você lida com a vida. Refletir pode causar
                   um certo incômodo. Cada pergunta tem algumas possiveis respostas que vc pode escolher.
+                  As imagens se relacionam com as perguntas e podem te provocar e evocar lembranças.
                   Ao final será feita uma pequena analise reflexiva sobre suas respostas.
                   Fique a vontade para não seguir em frente. Ninguém terá acesso as suas respostas,
                   inclusive eu, o site não usa banco de dados, ou seja só vc saberá as respostas que escolheu
