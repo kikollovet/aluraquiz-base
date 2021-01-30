@@ -65,7 +65,7 @@ function ResultWidget({ results }) {
         <p>
           A compreessão inevitávelmente nos leva a mudança, ao amadurecimento.
         </p>
-        Abaixo uma pequena reflexão sobre o modo como vc lida com as situações das perguntas.
+        Abaixo uma pequena reflexão sobre o modo como vc lida com as situações das perguntas. Cuidado!!! Pode conter provocações!!!
         <ul>
           {results.map((result, index) => (
             <li key={`result__${index}`}>
