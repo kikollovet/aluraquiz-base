@@ -46,7 +46,7 @@ export default function Home() {
   return (
     <QuizBackground backgroundImage={db.bg}>
       <Head>
-        <title>Alura Quiz</title>
+        <title>Auto-Conhecimento</title>
       </Head>
       <QuizContainer>
         <QuizLogo />
@@ -61,7 +61,26 @@ export default function Home() {
           animate="show"
         >
           <Widget.Header>
-              <h1>Conhecimento acerca de si-mesmo</h1>
+              <h1>
+                Conhecimento acerca de si-mesmo
+                <p>
+                  {'---------------------------------------------------'}
+                </p>
+                <p>
+                  AVISO ao VIAJANTE!!! Caso decida escrever o seu nome e apertar o botão saiba
+                  que vc encontrará perguntas sobre 
+                  você e seu íntimo, seu mundo interno. Vc pode ficar mexido, 
+                  reflexivo ou apenas odiar isto e achar uma baboseira. O objetivo é que vc 
+                  reflita sobre a maneira como você lida com a vida. Refletir pode causar
+                  um certo incômodo. Cada pergunta tem algumas possiveis respostas que vc pode escolher.
+                  Ao final será feita uma pequena analise reflexiva sobre suas respostas.
+                  Fique a vontade para não seguir em frente. A escolha é sua. Caso queira prosseguir, 
+                  siga com cautela, respeito a si mesmo, amor próprio, e auto cuidado, respire
+                  e simbora mergulhar no nosso mundo interno!
+                </p>
+              </h1>
+              
+              
           </Widget.Header>
           <Widget.Content>
             <form onSubmit={function (infosDoEvento) {
@@ -81,7 +100,7 @@ export default function Home() {
               <Input
                 name="nomeDoUsuario"
                 onChange={(infosDoEvento) => setName(infosDoEvento.target.value)}
-                placeholder="Conte seu nome aventureiro"
+                placeholder="Conte seu nome marinheiro"
                 value={name}
               />
 
