@@ -11,8 +11,6 @@ const Widget = styled.div`
   width: 100%;
   background-size: 100% 100%;
   background-position: center;
-  background-image: url("/Fundo-Vermelho-Tons.jpg");
-
   border-radius: 4px;
   overflow: hidden;
   text-align: left;
@@ -40,10 +38,10 @@ Widget.Header = styled.header`
   /*width: 100%;
   height: 100%;*/
   padding: 18px 32px;
-  background-color: #270001;/*${({ theme }) => theme.colors.primary};*/
+  background-color: #D60001;/*${({ theme }) => theme.colors.primary};*/
   background-size: 100% 100%;
   background-position: center;
-  background-image: url("/Fundo-Vermelho-Tons-Header4.jpg");
+  /* background-image: url("/Fundo-Vermelho-Tons-Header4.jpg"); */
   border-bottom: 1px solid black;
   
   * {
@@ -53,6 +51,9 @@ Widget.Header = styled.header`
 
 Widget.Content = styled.div`
   padding: 24px 32px 32px 32px;
+  background-image: url("/Fundo-Vermelho-Tons.jpg");
+  background-size: 100% 100%;
+  background-position: center;
   & > *:first-child {
       margin-top: 0;
   }
@@ -63,6 +64,7 @@ Widget.Content = styled.div`
     list-style: none;
     padding: 0;
   }
+  
 `;
 
 Widget.Topic = styled.a`

@@ -75,6 +75,11 @@ function QuestionWidget({
   const questionId = `question__${questionIndex}`;
   const resultAlternative = question.title + " " + question.comentario[selectedAlternative]//selectedAlternative === question.answer;
   const hasAlternativeSelected = selectedAlternative !== undefined;
+  const [isGifLoaded, setIsGifLoaded] = React.useState(false);
+
+  setTimeout(() => {
+    setIsGifLoaded(true);
+  }, 1 * 2000);
 
   return (
     <Widget>
@@ -85,7 +90,19 @@ function QuestionWidget({
         </h3>
       </Widget.Header>
 
-      <img
+      {!isGifLoaded && 
+      <div width="100%" height="100%" style={{margin: "auto", backgroundColor: 'orange'}}>
+        <Lottie
+          width="200px"
+          height="200px"
+          className="lottie-container basic"
+          config={{ animationData: loadingAnimation, loop: true, autoplay: true }}
+          style={{margin: "auto", backgroundColor: 'orange'}}
+        />
+      </div>
+      }
+
+      {isGifLoaded && <img
         alt="Gif/Imagem reflexiva relacionada a pergunta"
         style={{
           width: '100%',
@@ -93,7 +110,7 @@ function QuestionWidget({
           objectFit: 'cover',
         }}
         src={question.image}
-      />
+      />}
       <Widget.Content>
         <h2>
           {question.title}
@@ -111,6 +128,8 @@ function QuestionWidget({
               onSubmit();
               setIsQuestionSubmited(false);
               setSelectedAlternative(undefined);
+              setIsGifLoaded(false);
+              
             }, 3 * 1000);
           }}
         >
@@ -133,6 +152,7 @@ function QuestionWidget({
                 //   onChange={() => setSelectedAlternative(alternativeIndex)} essa dá ruim
                   onClick={() => setSelectedAlternative(alternativeIndex)}
                   type="radio"
+                  disabled={isQuestionSubmited}
                 />
                 {alternative}
               </Widget.Topic>
