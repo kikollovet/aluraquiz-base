@@ -24,7 +24,8 @@ function ResultWidget({ results }) {
           Um pequeno texto reflexivo pra aquecer e inspirar a busca por auto-conhecimento
         </p>
         
-        Abaixo uma pequena reflexão sobre o modo como vc lida com as situações das perguntas.
+        Abaixo uma pequena reflexão sobre o modo como vc lida com as situações das perguntas. A reflexão de cada pergunta é baseada 
+        na resposta que vc escolheu para a pergunta. Se tivesse escolhido outra resposta o comentário seira diferente...
         Cada reflexão/provocação é baseada na resposta/possibilidade que vc escolheu.
         <ul>
           {results.map((result, index) => (
@@ -73,7 +74,7 @@ function QuestionWidget({
   const [selectedAlternative, setSelectedAlternative] = React.useState(undefined);
   const [isQuestionSubmited, setIsQuestionSubmited] = React.useState(false);
   const questionId = `question__${questionIndex}`;
-  const resultAlternative = question.title + " " + question.comentario[selectedAlternative]//selectedAlternative === question.answer;
+  const resultAlternative = question.title + " " + question.alternatives[selectedAlternative] + ". " + question.comentario[selectedAlternative]//selectedAlternative === question.answer;
   const hasAlternativeSelected = selectedAlternative !== undefined;
   const [isGifLoaded, setIsGifLoaded] = React.useState(false);
 

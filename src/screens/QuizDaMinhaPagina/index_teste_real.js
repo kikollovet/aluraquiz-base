@@ -81,7 +81,9 @@ function ResultWidget({ results }) {
           Se conhecer leva tempo. Mudar também pode demorar. O esforço e a vontade são essencias. Mas aposto que se vc se aventurar a expandir 
           seu conhecimento acerca de si-mesmo você só tem a ganhar. Tentar ser uma pessoa melhor é uma escolha, e vc que escolha vai fazer? :)
         </p>
-        Abaixo uma pequena reflexão sobre o modo como vc lida com as situações das perguntas. Cuidado!!! Pode conter provocações!!!
+        Abaixo uma pequena reflexão sobre o modo como vc lida com as situações das perguntas. A reflexão de cada pergunta é baseada 
+        na resposta que vc escolheu para a pergunta. Se tivesse escolhido outra resposta o comentário seira diferente...
+        Assim cada reflexão/provocação é direcionada a suas escolhas!!!
         <ul>
           {results.map((result, index) => (
             <li key={`result__${index}`}>
@@ -129,7 +131,7 @@ function QuestionWidget({
   const [selectedAlternative, setSelectedAlternative] = React.useState(undefined);
   const [isQuestionSubmited, setIsQuestionSubmited] = React.useState(false);
   const questionId = `question__${questionIndex}`;
-  const resultAlternative = question.title + " " + question.comentario[selectedAlternative]//selectedAlternative === question.answer;
+  const resultAlternative = question.title + " " + question.alternatives[selectedAlternative] + ". " + question.comentario[selectedAlternative]//selectedAlternative === question.answer;//selectedAlternative === question.answer;
   const hasAlternativeSelected = selectedAlternative !== undefined;
   const [isGifLoaded, setIsGifLoaded] = React.useState(false);
 
