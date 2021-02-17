@@ -1,10 +1,10 @@
 {
-    "bg": "https://somos.lojaiplace.com.br/wp-content/uploads/2020/01/Apple_Shot-on-iPhone-Challenge-2020_Austin-Mann_01072020.jpg",
-    "title": "Quiz lugares fantásticos",
-    "description": "Perguntas sobre lugares fantásticos ao redor do mundo",
+    "bg": "background.jpg",
+    "title": "Imersão em si-mesmo",
+    "description": "Perguntas sobre você e sua relação com o mundo",
     "questions": [
       {
-        "image": "https://25.media.tumblr.com/4882afb45a26931785e79c6fd0dfe9a4/tumblr_mkybtsOwoe1ruc4bco1_500.gif",
+        "image": "house.gif",
         "title": "Você mente?",
         "description": "Não pense que eu abomino mentira",
         "answer": 2,
@@ -22,7 +22,7 @@
         ]
       },
       {
-        "image": "https://maisro.com.br/wp-content/uploads/2018/04/MENINOOO.gif",
+        "image": "menino.gif",
         "title": "Como vc reage a uma crítica?",
         "description": "Na vida a gente sempre vai ouvir críticas em algum momento",
         "answer": 2,
@@ -40,7 +40,7 @@
         ]
       },
       {
-        "image": "https://media.giphy.com/media/7dWqqQ9g4Slws/giphy.gif",
+        "image": "cachorro.gif",
         "title": "Vc se faz de vítima em algumas situações?",
         "description": "Colocar o dog pra dirigir é perigo na certa",
         "answer": 2,
@@ -56,7 +56,7 @@
         ]
       },
       {
-        "image": "https://4.bp.blogspot.com/-MarzTD5LcSk/WqTlQYOcbnI/AAAAAAABDyE/WGKOuL8N374yrI2hwOWyvLfbwgRQU4JTQCLcBGAs/s1600/pantera-12-C13.gif",
+        "image": "pantera.gif",
         "title": "Quando vc tem um problema, o que vc faz?",
         "description": "Vida sem problema não exite",
         "answer": 2,
@@ -76,7 +76,7 @@
         ]
       },
       {
-        "image": "https://brilhantego.net/wp-content/uploads/2014/06/13-e.gif",
+        "image": "tenor.gif",
         "title": "Quando vc se sente frustrado, o que  faz?",
         "description": "Inevitavelmente em alguma curva da vida a gente se frustra",
         "answer": 2,
